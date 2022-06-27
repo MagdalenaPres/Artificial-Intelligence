@@ -17,13 +17,30 @@ Language: **Java**
 The aim of implementing the project was to get acquainted with the algorithms used for solving Constraint Satisfaction Problems on the example of two games: Binary and Futoshiki.
 
 To solve the problems I have used following algorithms:
-• Backtracking
-• Forward checking
+- Backtracking
+- Forward checking
+
+**Binary** is a logic puzzle to be solved on the n by n board. It consists in entering 1 and 0 so that each row and column are unique, in no row or column there are three numbers in a row and each row and column contain the same number of zeros what ones.
+
+**Futoshiki** is a board-based puzzle game. It is playable on a square board having a given fixed size. The purpose of the game is to discover the digits hidden inside the board's cells; each cell is filled with a digit between 1 and the board's size. On each row and column each digit appears exactly once. The board might also contain some inequalities between the board cells and these inequalities must be respected.
 
 Language: **Java**
 
-
 ## **Genetic Algorithm**
+The aim of implementing the project was to get acquainted with the optimization problem based on an example of Genetic Algorithm. The presented problem applies to
+arranging machines on the board in a way that minimizes the cost of work taking into consideration distance between them.
 
+In order to optimize the result, the genetic algorithm used the selection operators (tournament and roulette), mutation and crossover.
+
+Language: **Java**
 
 ## **Text Classification**
+The aim of the task was to get acquainted with the basics of machine learning using from the example of text classification. 
+Two approaches were used to solve the problem:
+- Naive Bayesian Classifier
+- Support Vector Machine.
+
+In task the objects to be classified were book summaries and the purpose was to identify belonging to species.
+
+Language: **Python**
+
